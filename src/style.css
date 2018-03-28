@@ -1,0 +1,302 @@
+/* hide hosting data*/
+.cbalink {
+    display: none;
+}
+
+/* ---------------- */
+body{
+    background-image: url("../img/backgray2.png");
+}
+@font-face {
+    font-family: myCenturyGothic; /* Гарнитура шрифта */
+    src: url("../src/fonts/GOTHIC.TTF"); /* Путь к файлу со шрифтом */
+}
+
+.loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgb(238, 238, 238) url('../img/loading.gif') no-repeat center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: myCenturyGothic, serif;
+    font-style: normal;
+}
+
+body {
+    min-width: 1200px;
+}
+
+/*#gametitle {*/
+/*text-align: center;*/
+/*font-size: 1.5em;*/
+/*line-height: 1.6em;*/
+/*font-family: myCenturyGothic, serif;*/
+/*color: #3d3d3d;*/
+/*}*/
+
+#gamearea {
+    position: relative;
+
+    width: 1200px;
+    height: 600px;
+    min-width: 1200px;
+    min-height: 600px;
+    max-width: 1200px;
+    max-height: 600px;
+
+    left: 50%;
+    margin: 15px 0 0 -600px;
+
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+
+    overflow: hidden;
+    display: none;
+    /*background: rgba(255, 255, 255, 0);*/
+    background-image: url("../img/ship_bg/ship_01.png"), url("../img/ship_bg/water.gif");
+}
+/*21019*/
+#videoarea, #startarea, #area, #endarea, .results  {
+    position: relative;
+    width: 1200px;
+    height: 600px;
+    min-width: 1200px;
+    min-height: 600px;
+    max-width: 1200px;
+    max-height: 600px;
+
+    left: 50%;
+    margin: 15px 0 0 -600px;
+
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+
+    overflow: hidden;
+
+    /*background: rgba(255, 255, 255, 0);*/
+    }
+#startarea, #endarea {
+    display: none;
+}
+
+.gamearea_XX {
+
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+
+    float: left;
+
+
+    /*box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);*/
+}
+
+#gamer {
+    position: absolute;
+
+    left: 50px;
+    top: 0;
+
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+
+    /*box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);*/
+
+    /*border-radius: 50%;*/
+
+    background: url("../img/gamer.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*transform: rotate(45deg);*/
+}
+
+#menu {
+    position: relative;
+
+    left: 50%;
+    margin: 0 0 0 -600px;
+
+    text-align: center;
+
+    width: 1200px;
+    height: 100px;
+
+    overflow: hidden;
+
+    background-image: url("../img/bottom-boxes/bottom-box-clear.png");
+}
+
+.bottom-boxes {
+    float: left;
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+
+    background-image: url("../img/bottom-boxes/bottom-box-clear.png");
+}
+
+.menu_coin {
+    margin: 20px 0 0 10px;
+    width: 35px;
+    height: 35px;
+    float: left;
+    display: inline-block;
+    background-size: cover;
+}
+
+#menu_coinA {
+    background-image: url("../img/coinA.png");
+}
+
+#menu_coinA_gold {
+    background-image: url("../img/coinA_gold.png");
+}
+
+#bottom-box-12 {
+    float: right;
+}
+
+#bottom-box-12 > input {
+    background: none;
+    border: none;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#bottom-box-12 > input {
+    background: none;
+    border: none;
+    width: 35px;
+    height: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.gmItem{
+    cursor: pointer;
+}
+.congrat{
+    display: none;
+}
+.panel_lvl1{
+    background-image:  url("../img/shipControlPanel/controlPanel_01 x=400.5 y=21.5.png");
+    left: 400px;
+    position: absolute;
+    height: 379px;
+    width: 357px;
+    top: 21.5px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+}
+.panel_lvl2{
+    background-image:  url("../img/shipControlPanel/controlPanel_02 x=750 y=45.png");
+    left: 750px;
+    position: absolute;
+    height: 174px;
+    width: 460px;
+    top: 45px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+
+}
+.panel_lvl3{
+    background-image:  url("../img/shipControlPanel/controlPanel_03 x=0 y=2.png");
+    left: 0px;
+    position: absolute;
+    height: 379px;
+    width: 400px;
+    top: 2px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+
+}
+.panel_lvl4{
+    background-image:  url("../img/shipControlPanel/controlPanel_04 x=116 y=253.png");
+    left: 116px;
+    position: absolute;
+    height: 288px;
+    width: 351px;
+    top: 253px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+
+}
+.panel_lvl5{
+    background-image:  url("../img/shipControlPanel/controlPanel_05  x=795 y=254.png");
+    left: 795px;
+    position: absolute;
+    height: 219px;
+    width: 315px;
+    top: 254px;
+    visibility: hidden;
+    background-repeat: no-repeat;
+
+}
+.menu_1, .menu_2, .menu_3, .menu_4, .menu_5{
+    display: none;
+}
+.results{
+    background-image: url("../img/finalScreen.png");
+}
+.pull_right{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-top: 50px;
+}
+.title{
+    font-size: 43px;
+    font-weight: bold;
+    color: #313131;
+}
+.gold{
+    padding-top: 30px;
+    color: #a29400;
+}
+.silver{
+    padding-top: 30px;
+    color: #a2a2a2;
+}
+.res{
+    font-size: 25px;
+}
+.coin_silver{
+    background-image: url("../img/silverCoin.gif");
+    height: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* text-align: center; */
+    /* display: inline-block; */
+    background-size: contain;
+    background-position: center;
+}
+.coin_gold{
+    background-image: url("../img/goldCoin.gif");
+    height: 50px;
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    /* text-align: center; */
+    /* display: inline-block; */
+    background-position: center;
+}

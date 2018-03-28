@@ -1,0 +1,744 @@
+#main_bg_lvl1 {
+    /*background-image: url("../img/search/level1-clear.png");*/
+    width: 1200px;
+    height: 600px;
+    background-size: contain;
+
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.img_click {
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+    visibility: hidden;
+}
+
+.img_lvl_1_1 {
+    background-image: url("../img/cargo1/cardreader x=315  y=58.png");
+    width: 37px;
+    height: 80px;
+    left: 315px;
+    top: 58px;
+
+}
+
+.img_lvl_1_2 {
+    background-image: url("../img/cargo1/compass x=586 y=130.png");
+    width: 52px;
+    height: 51px;
+    left: 586px;
+    top: 130px;
+}
+
+.img_lvl_1_3 {
+    background-image: url("../img/cargo1/engine x=842 y=374.png");
+    width: 76px;
+    height: 60px;
+    left: 842px;
+    top: 374px;
+}
+
+.img_lvl_1_4 {
+    background-image: url("../img/cargo1/magnet x=383 y=137.png");
+    width: 55px;
+    height: 49px;
+    left: 383px;
+    top: 137px;
+}
+
+.img_lvl_1_5 {
+    background-image: url("../img/cargo1/magnetman x=466 y=365.png");
+    width: 71px;
+    height: 59px;
+    left: 466px;
+    top: 365px;
+}
+
+.img_lvl_1_6 {
+    background-image: url("../img/cargo1/magnetto x=466 y=220.png");
+    width: 58px;
+    height: 70px;
+    left: 466px;
+    top: 220px;
+}
+
+.img_lvl_1_7 {
+    background-image: url("../img/cargo1/neocube x=630 y=280.png");
+    width: 36px;
+    height: 41px;
+    left: 630px;
+    top: 280px;
+}
+
+.img_lvl_1_8 {
+    background-image: url("../img/cargo1/pokemon x=730 y=58.png");
+    width: 72px;
+    height: 42px;
+    left: 730px;
+    top: 58px;
+}
+
+.img_lvl_1_9 {
+    background-image: url("../img/cargo1/sound x=180 y=130.png");
+    width: 88px;
+    height: 53px;
+    left: 180px;
+    top: 130px;
+
+}
+
+.img_lvl_1_10 {
+    background-image: url("../img/cargo1/ua x=740 y=360.png");
+    width: 65px;
+    height: 44px;
+    left: 740px;
+    top: 360px;
+}
+.img_lvl_2_1 {
+    background-image: url("../img/cargo2/bat x=714 y=60.png");
+    width: 105px;
+    height: 48px;
+    left: 714px;
+    top: 60px;
+
+}
+
+.img_lvl_2_2 {
+    background-image: url("../img/cargo2/bee x=1000 y=388.png");
+    width: 90px;
+    height: 63px;
+    left: 1000px;
+    top: 388px;
+}
+
+.img_lvl_2_3 {
+    background-image: url("../img/cargo2/book x=314 y=97.png");
+    width: 64px;
+    height: 91px;
+    left: 314px;
+    top: 97px;
+}
+
+.img_lvl_2_4 {
+    background-image: url("../img/cargo2/dolphin  x=1000 y=168.png");
+    width: 114px;
+    height: 105px;
+    left: 1000px;
+    top: 168px;
+}
+
+.img_lvl_2_5 {
+    background-image: url("../img/cargo2/owll x=435 y=220.png");
+    width: 57px;
+    height: 136px;
+    left: 435px;
+    top: 220px;
+}
+
+.img_lvl_2_6 {
+    background-image: url("../img/cargo2/submarin x=866 y=26.png");
+    width: 158px;
+    height: 48px;
+    left: 866px;
+    top: 26px;
+}
+
+.img_lvl_2_7 {
+    background-image: url("../img/cargo2/yellowsub x=258 y=300.png");
+    width: 122px;
+    height: 72px;
+    left: 258px;
+    top: 300px;
+}
+
+.img_lvl_2_8 {
+    background-image: url("../img/cargo2/kasatka x=150 y=37.png");
+    width: 82px;
+    height: 60px;
+    left: 157px;
+    top: 37px;
+}
+
+.img_lvl_2_9 {
+    background-image: url("../img/cargo2/ear x=186 y=148.png");
+    width: 46px;
+    height: 81px;
+    left: 186px;
+    top: 148px;
+
+}
+
+.img_lvl_2_10 {
+    background-image: url("../img/cargo2/batman x=435 y=480.png");
+    width: 62px;
+    height: 96px;
+    left: 435px;
+    top: 480px;
+}
+.img_lvl_3_1 {
+    background-image: url("../img/cargo3/fleita x=988 y=280.png");
+    width: 165px;
+    height: 66px;
+    left: 988px;
+    top: 280px;
+
+}
+
+.img_lvl_3_2 {
+    background-image: url("../img/cargo3/guitar x=824 y=94.png");
+    width: 34px;
+    height: 83px;
+    left: 824px;
+    top: 94px;
+}
+
+.img_lvl_3_3 {
+    background-image: url("../img/cargo3/headphones x=290 y=334.png");
+    width: 82px;
+    height: 53px;
+    left: 290px;
+    top: 334px;
+}
+
+.img_lvl_3_4 {
+    background-image: url("../img/cargo3/kast x=200  y=19.png");
+    width: 75px;
+    height: 62px;
+    left: 200px;
+    top: 19px;
+}
+
+.img_lvl_3_5 {
+    background-image: url("../img/cargo3/key x=300 y=67.png");
+    width: 63px;
+    height: 38px;
+    left: 300px;
+    top: 67px;
+}
+
+.img_lvl_3_6 {
+    background-image: url("../img/cargo3/keyboard x=788 y=280.png");
+    width: 106px;
+    height: 33px;
+    left: 788px;
+    top: 280px;
+}
+
+.img_lvl_3_7 {
+    background-image: url("../img/cargo3/marakasy x=520 y=150.png");
+    width: 42px;
+    height: 78px;
+    left: 520px;
+    top: 150px;
+}
+
+.img_lvl_3_8 {
+    background-image: url("../img/cargo3/violin x=410 y=185.png");
+    width: 93px;
+    height: 35px;
+    left: 410px;
+    top: 185px;
+}
+
+.img_lvl_3_9 {
+    background-image: url("../img/cargo3/bandura x=652 y=85.png");
+    width: 83px;
+    height: 39px;
+    left: 625px;
+    top: 85px;
+
+}
+
+.img_lvl_3_10 {
+    background-image: url("../img/cargo3/baraban x=947 y=220.png");
+    width: 41px;
+    height: 60px;
+    left: 947px;
+    top: 220px;
+}
+.img_lvl_4_1 {
+    background-image: url("../img/cargo4/pepper x=603 y=332.png");
+    width: 27px;
+    height: 63px;
+    left: 603px;
+    top: 332px;
+
+}
+
+.img_lvl_4_2 {
+    background-image: url("../img/cargo4/plug x=645 y=124.png");
+    width: 59px;
+    height: 25px;
+    left: 645px;
+    top: 124px;
+}
+
+.img_lvl_4_3 {
+    background-image: url("../img/cargo4/sushi x=916 y=505.png");
+    width: 38px;
+    height: 32px;
+    left: 916px;
+    top: 505px;
+}
+
+.img_lvl_4_4 {
+    background-image: url("../img/cargo4/vine x=478 y=452.png");
+    width: 72px;
+    height: 48px;
+    left: 478px;
+    top: 452px;
+}
+
+.img_lvl_4_5 {
+    background-image: url("../img/cargo4/apple x=610 y=395.png");
+    width: 35px;
+    height: 41px;
+    left: 610px;
+    top: 395px;
+}
+
+.img_lvl_4_6 {
+    background-image: url("../img/cargo4/burger x=400 y=348.png");
+    width: 48px;
+    height: 35px;
+    left: 400px;
+    top: 348px;
+}
+
+.img_lvl_4_7 {
+    background-image: url("../img/cargo4/carrot x=835 y=81.png");
+    width: 44px;
+    height: 23px;
+    left: 835px;
+    top: 81px;
+}
+
+.img_lvl_4_8 {
+    background-image: url("../img/cargo4/knife x=721 y=175.png");
+    width: 147px;
+    height: 27px;
+    left: 721px;
+    top: 175px;
+}
+
+.img_lvl_4_9 {
+    background-image: url("../img/cargo4/ladle x=244 y=160.png");
+    width: 107px;
+    height: 30px;
+    left: 244px;
+    top: 160px;
+
+}
+
+.img_lvl_4_10 {
+    background-image: url("../img/cargo4/parsley x=330 y=415.png");
+    width: 47px;
+    height: 53px;
+    left: 330px;
+    top: 415px;
+}
+.img_lvl_5_1 {
+    background-image: url("../img/cargo5/casette x=380 y=368.png");
+    width: 91px;
+    height: 37px;
+    left: 380px;
+    top: 368px;
+
+}
+
+.img_lvl_5_2 {
+    background-image: url("../img/cargo5/cellphone x=113 y=165.png");
+    width: 49px;
+    height: 49px;
+    left: 113px;
+    top: 165px;
+}
+
+.img_lvl_5_3 {
+    background-image: url("../img/cargo5/iphone x=580 y=351.png");
+    width: 24px;
+    height: 53px;
+    left: 580px;
+    top: 351px;
+}
+
+.img_lvl_5_4 {
+    background-image: url("../img/cargo5/morze x=197 y=402.png");
+    width: 123px;
+    height: 72px;
+    left: 197px;
+    top: 402px;
+}
+
+.img_lvl_5_5 {
+    background-image: url("../img/cargo5/nearphone x=1073 y=337.png");
+    width: 52px;
+    height: 64px;
+    left: 1073px;
+    top: 337px;
+}
+
+.img_lvl_5_6 {
+    background-image: url("../img/cargo5/nokia x=980 y=604.png");
+    width: 25px;
+    height: 56px;
+    left: 980px;
+    top: 541px;
+}
+
+.img_lvl_5_7 {
+    background-image: url("../img/cargo5/pager x=133 y=613.png");
+    width: 79px;
+    height: 51px;
+    left: 133px;
+    top: 544px;
+}
+
+.img_lvl_5_8 {
+    background-image: url("../img/cargo5/rupor x=533 y=214.png");
+    width: 48px;
+    height: 68px;
+    left: 533px;
+    top: 214px;
+}
+
+.img_lvl_5_9 {
+    background-image: url("../img/cargo5/sound x=908 y=488.png");
+    width: 56px;
+    height: 47px;
+    left: 908px;
+    top: 488px;
+
+}
+
+.img_lvl_5_10 {
+    background-image: url("../img/cargo5/vef202 x=471 y=547.png");
+    width: 48px;
+    height: 42px;
+    left: 471px;
+    top: 547px;
+}
+
+.img_position {
+    /*margin: 0 10%;*/
+    position: absolute;
+    top: 0;
+
+}
+
+#glass {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url("../img/search/zoom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    float: left;
+
+    margin: 25px;
+}
+
+body {
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+}
+
+#control_panel {
+    position: relative;
+
+    width: 1200px;
+    height: 100px;
+    min-width: 1200px;
+    min-height: 100px;
+    max-width: 1200px;
+    max-height: 100px;
+
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+
+    overflow: hidden;
+
+    background: rgba(255, 255, 255, 0);
+    background-color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#subjekt {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    background-color: burlywood;
+    height: 90%;
+    margin: 5px 0 0 327px;
+}
+
+.menu_box {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.find_element_lvl1_1{
+    background-image: url("../img/cargo1/menu_images/cardreader-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_2{
+    background-image: url("../img/cargo1/menu_images/compass-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_3{
+    background-image: url("../img/cargo1/menu_images/engine-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_4{
+    background-image: url("../img/cargo1/menu_images/magnet-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_5{
+    background-image: url("../img/cargo1/menu_images/magnetman-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_6{
+    background-image: url("../img/cargo1/menu_images/magnetto-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_7{
+    background-image: url("../img/cargo1/menu_images/neocube-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_8{
+    background-image: url("../img/cargo1/menu_images/pokemon-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_9{
+    background-image: url("../img/cargo1/menu_images/sound-hide.png");
+    display: none;
+}
+
+.find_element_lvl1_10{
+    background-image: url("../img/cargo1/menu_images/ua-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_1{
+    background-image: url("../img/cargo2/menu_images/bat-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_2{
+    background-image: url("../img/cargo2/menu_images/bee-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_3{
+    background-image: url("../img/cargo2/menu_images/book-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_4{
+    background-image: url("../img/cargo2/menu_images/dolphin-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_5{
+    background-image: url("../img/cargo2/menu_images/owll-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_6{
+    background-image: url("../img/cargo2/menu_images/submarin-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_7{
+    background-image: url("../img/cargo2/menu_images/yellowsub-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_8{
+    background-image: url("../img/cargo2/menu_images/kasatka-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_9{
+    background-image: url("../img/cargo2/menu_images/ear-hide.png");
+    display: none;
+}
+
+.find_element_lvl2_10{
+    background-image: url("../img/cargo2/menu_images/batman-hide.png");
+    display: none;
+}
+.find_element_lvl3_1{
+    background-image: url("../img/cargo3/menu_images/level3-item1-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_2{
+    background-image: url("../img/cargo3/menu_images/level3-item2-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_3{
+    background-image: url("../img/cargo3/menu_images/level3-item3-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_4{
+    background-image: url("../img/cargo3/menu_images/level3-item4-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_5{
+    background-image: url("../img/cargo3/menu_images/level3-item5-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_6{
+    background-image: url("../img/cargo3/menu_images/level3-item6-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_7{
+    background-image: url("../img/cargo3/menu_images/level3-item7-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_8{
+    background-image: url("../img/cargo3/menu_images/level3-item8-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_9{
+    background-image: url("../img/cargo3/menu_images/level3-item9-hide.png");
+    display: none;
+}
+
+.find_element_lvl3_10{
+    background-image: url("../img/cargo3/menu_images/level3-item10-hide.png");
+    display: none;
+}
+.find_element_lvl4_1{
+    background-image: url("../img/cargo4/menu_images/level4-item1-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_2{
+    background-image: url("../img/cargo4/menu_images/level4-item2-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_3{
+    background-image: url("../img/cargo4/menu_images/level4-item3-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_4{
+    background-image: url("../img/cargo4/menu_images/level4-item4-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_5{
+    background-image: url("../img/cargo4/menu_images/level4-item5-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_6{
+    background-image: url("../img/cargo4/menu_images/level4-item6-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_7{
+    background-image: url("../img/cargo4/menu_images/level4-item7-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_8{
+    background-image: url("../img/cargo4/menu_images/level4-item8-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_9{
+    background-image: url("../img/cargo4/menu_images/level4-item9-hide.png");
+    display: none;
+}
+
+.find_element_lvl4_10{
+    background-image: url("../img/cargo4/menu_images/level4-item10-hide.png");
+    display: none;
+}
+.find_element_lvl5_1{
+    background-image: url("../img/cargo5/menu_images/level5-item1-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_2{
+    background-image: url("../img/cargo5/menu_images/level5-item2-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_3{
+    background-image: url("../img/cargo5/menu_images/level5-item3-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_4{
+    background-image: url("../img/cargo5/menu_images/level5-item4-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_5{
+    background-image: url("../img/cargo5/menu_images/level5-item5-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_6{
+    background-image: url("../img/cargo5/menu_images/level5-item6-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_7{
+    background-image: url("../img/cargo5/menu_images/level5-item7-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_8{
+    background-image: url("../img/cargo5/menu_images/level5-item8-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_9{
+    background-image: url("../img/cargo5/menu_images/level5-item9-hide.png");
+    display: none;
+}
+
+.find_element_lvl5_10{
+    background-image: url("../img/cargo5/menu_images/level5-item10-hide.png");
+    display: none;
+}
+#bottom-box-5 {
+    display: none;
+}
+.ci{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
